@@ -1,0 +1,728 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+    padding: 0;
+    margin: 0;
+
+}
+.top_header{
+      background-image: url(../images/hdelicious-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      position: relative;
+      background-attachment: fixed;
+}
+.navbar-brand{
+
+}
+.navbar-brand img{
+    
+width: 60%;
+    
+margin-left: 25px;
+}
+.nav-link{
+
+color: #fff;
+
+margin-left: 20px;
+
+text-transform: uppercase;
+position: relative;
+
+}
+.nav-link::before{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: .5s all ease-in-out;
+    
+ 
+
+
+}
+.nav-link:hover::before{
+    
+    background-color: #5d5c5b;
+    width: 100%;
+    
+    
+}
+.nav-link:hover{
+    color: #c47a18;
+}
+.banner_cont{
+
+}
+.content{
+
+position: absolute;
+
+top: 25%;
+
+left: 60%;
+
+transform: translateX(-25%);
+
+color: #fff;
+
+text-align: end;
+}
+.content h1{
+    
+font-size: 70px;
+}
+.content span{
+    
+width: 45%;
+    
+height: 2px;
+    
+margin: 15px 0;
+    
+display: inline-flex;
+    
+border: 2px solid #d9a815;
+    
+border-style: dashed;
+}
+.content p{
+    
+font-size: 17px;
+}
+.btn_book{
+    
+padding: 15px 30px;
+    
+background: transparent;
+    
+border: 7px solid #8f6e0d;
+    
+border-radius: 30px;
+    
+border-style: double;
+    
+color: #fff;
+    
+margin-top: 30px;
+    
+text-transform: uppercase;
+}
+
+.btn_book:hover{
+    background-color: #c47a18;
+    color: #fff;
+}
+.what_offer{
+
+}
+.offer_cont{
+
+text-align: center;
+}
+.offer_cont h3{
+    
+color: #d9a815;
+    
+margin-top: 60px;
+}
+.offer_cont h1{
+    
+text-transform: uppercase;
+    
+font-weight: 600;
+    
+margin-bottom: 20px;
+}
+.offer_cont p{
+    
+font-size: 20px;
+    
+color: #979595;
+    
+font-weight: 600;
+    
+margin-bottom: 30px;
+}
+.recipe_one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+   
+}
+.recipe_one i{
+
+}
+.recipe{
+ position: relative;
+}
+.recipe img{
+    
+width: 100%;
+    
+border-radius: 180px;
+}
+.recipe::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    border-radius: 180px;
+    transition: .5s all ease-in-out;
+   }
+   .recipe:hover::before{
+        opacity: 0.7;
+        background-color: black;
+
+   }
+.recipe:hover .recipe_one{
+    opacity: 1;
+}
+.about{
+
+background: #222121;
+
+color: #fff;
+}
+.about_cont{
+    
+}
+.about_cont h5{
+    
+color: #d9a815;
+}
+.about_cont h1{font-size: 50px;font-weight: 700;}
+.about_cont span{
+    
+display: block;
+    
+width: 20%;
+    
+height: 2px;
+    
+margin: 20px 0;
+    
+border: 1px solid #d9a819;
+    
+border-style: dashed;
+}
+.about_cont p{
+    
+line-height: 30px;
+}
+.btn_book_two{
+    padding: 15px 30px;
+    
+background: transparent;
+    
+border: 7px solid #8f6e0d;
+    
+border-radius: 30px;
+    
+border-style: double;
+    
+color: #fff;
+    
+    
+margin-top: 30px;
+    
+text-transform: uppercase;
+}
+.btn_book_two:hover{
+    background-color: #c47a18;
+    color: #fff;
+}
+.about_img img{
+
+margin-left: 115px;
+}
+.about_img {
+}
+.customer_review{
+      background-image: url(../images/food\ banner.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 40vh;
+      background-attachment: fixed;
+      position: relative;
+      z-index: 0;
+      color: #fff;
+}
+.customer_review::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6F4400;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+   
+}
+.review{text-align: center;margin-top: 60px;}
+.review h1{
+    
+font-size: 60px;
+    
+font-weight: 700;
+}
+.review p{
+    
+font-weight: 600;
+}
+.team{
+
+}
+.team_cont{
+
+text-align: center;
+}
+.team_cont h5{
+    
+color: #d9a815;
+}
+.team_cont h1{
+    
+font-weight: 600;
+}
+.team_cont p{
+    
+font-size: 16px;
+    
+line-height: 31px;
+    
+font-weight: 600;
+    
+color: #837e7e;
+    
+margin: 20px 0;
+}
+.coocker_section{
+
+margin-bottom: 100px;
+}
+.coocker_part{box-shadow: 5px 5px 15px 1px rgb(0 0 0 / 50%);text-align: center;border-radius: 40px;padding: 15px;}
+.coocker_part h1{
+
+font-size: 25px;
+
+margin-top: 20px;
+
+margin-bottom: 10px;
+
+color: #7a7777;
+}
+.coocker_img{
+
+}
+.coocker_img img{
+    
+border-radius: 25px;
+}
+.social_icon{
+
+list-style: none;
+
+padding: 10px 0;
+}
+.social_icon ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: center;
+}
+.social_icon ul li{
+    border: 4px solid #a78115;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border-style: double;
+}
+.social_icon ul li i{
+    
+color: #8d6c0c;
+}
+.more{
+    background-image: url(../images/hdelicious-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    
+}
+.more::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #222121;
+    opacity: 0.7;
+    z-index: -1;
+}
+.more_us{
+  
+text-align: center;
+  
+color: #fff;
+  
+padding: 50px 0;
+  
+line-height: 60px;
+}
+.more_us h1{
+    
+font-size: 25px;
+}
+.more_us p{
+    
+font-size: 20px;
+}
+.recipe_list{
+
+}
+.recipe_prize{
+
+display: flex;
+
+align-items: center;
+}
+.recipe_prize img{
+    
+border-radius: 75px;
+}
+.recipe_prize h3{
+    
+margin-bottom: 6px;
+    
+font-size: 16px;
+    
+margin-right: 4px;
+    
+margin-left: 9px;:
+;
+    
+color: #818181;
+}
+.recipe_prize span{
+    
+width: 192px;
+    
+margin-right: 10px;
+    
+border: 1px solid #b1a8a8;
+    
+border-style: dotted;
+}
+.recipe_prize p{
+    
+border: 1px solid black;
+    
+border-style: dotted;
+    
+padding: 5px 10px;
+    
+color: #c7980d;
+    
+font-weight: 700;
+}
+.latest{
+    background-color: #EDEAE7;
+}
+.food_produce{
+
+text-align: center;
+
+background: #fff;
+
+padding-bottom: 10px;
+}
+.food_produce img{
+    
+width: 100%;
+}
+.food_produce h1{
+    
+font-size: 18px;
+    
+margin-bottom: 15px;
+    
+margin-top: 10px;
+}
+.food_produce p{
+    
+font-size: 17px;
+    
+color: #898989;
+}
+.learn a{
+    
+text-transform: uppercase;
+    
+text-decoration: none;
+    
+border-bottom: 1px solid black;
+    
+margin-bottom: 10px;
+    
+color: #6e6e6e;
+    
+font-weight: 500;
+}
+.food_produce:hover h1{
+    color: #b79224;
+}
+.learn:hover a{
+    color: #b79224;
+}
+.contact{
+
+}
+.touch{
+
+text-align: center;
+}
+.touch p{
+    
+font-size: 25px;
+    
+color: #dfae15;
+}
+.touch h1{
+    
+font-weight: 600;
+}
+.contact_info{
+
+background: #403e3e;
+
+padding-top: 100px;
+
+padding-bottom: 100px;
+}
+.location{
+
+color: #fff;
+
+display: flex;
+
+align-items: center;
+
+margin-bottom: 20px;
+}
+.location_section{
+
+    color: #fff;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    margin-bottom: 20px;
+    }
+.location_icon{
+
+font-size: 50px;
+
+margin-left: 30px;
+}
+.location_icon_one{
+
+    font-size: 50px;
+    
+    margin-left: 30px;
+    }
+.location_icon i{
+    color: #c9a744;
+    margin-right: 15px;
+}
+.location_icon_one i{
+    color: #e1bf5b;
+    margin-right: 30px;
+}
+.location_cont{
+
+}
+.location_cont h1{
+    
+font-size: 25px;
+}
+.location_cont_one h1{
+    
+    font-size: 25px;
+    }
+.location_cont p{
+    
+color: #b9b6b6;
+}
+.location_cont_one p{
+    
+    color: #b9b6b6;
+ }
+ .info{
+
+ }
+ form{
+
+ }
+ form label{
+
+font-weight: 600;
+
+margin-bottom: 5px;
+
+margin-top: 15px;
+
+}
+ form input{
+
+padding: 15px !important;
+
+}
+ form textarea{
+
+width: 100%;
+
+}
+ .name{
+
+ }
+ .name label{
+ }
+ .name input{
+    
+margin-right: 5px;
+    
+padding: 15px;
+ }
+ .btn_submit{
+    
+padding: 5px 15px;
+    
+background: #e17910;
+    
+border-radius: 50px;
+    
+border: 3px solid #e5c09b;
+    
+border-style: double;
+    
+color: #fff !important;
+    
+text-transform: uppercase;
+ }
+ .box_section{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-top: 10px;
+ }
+ .btn_submit:hover{
+    background-color: #6F4400;
+    color: #fff;
+ }
+ .footer_section{
+    background-image: url(../images/last\ banner\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    z-index: 0;
+ }
+ .footer_section::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #222121;
+    opacity: 0.7;
+    z-index: -1;
+
+ }
+ .footer_cont{
+
+color: #fff;
+
+text-align: center;
+
+}
+ .footer_cont img{
+    
+padding-top: 50px;
+    
+margin-bottom: 20px;
+ }
+ .footer_cont p{
+    
+margin-top: 5px;
+ }
+ .footer_icon{
+
+display: flex;
+
+justify-content: center;
+
+padding-top: 30px;
+
+padding-bottom: 100px;
+
+}
+.footer_icon ul{
+
+display: flex;
+}
+.footer_icon ul a{
+
+margin-right: 20px;
+
+color: #fff;
+
+border: 4px solid #fd9827;
+
+padding: 10px 15px;
+
+border-radius: 50px;
+
+border-style: double;
+transition: .5s all ease-in-out;
+}
+.footer_icon ul a i{
+
+    
+}
+.div:hover a{
+    background-color: #8d6c0c;
+}
+footer{
+    background-color: #202020;
+    color: #b7b4b4;
+}
+footer h3{
+    
+font-size: 16px;
+    
+padding: 15px 0;
+}
